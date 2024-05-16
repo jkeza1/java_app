@@ -1,13 +1,14 @@
 # java_app
-UniqueInt App
+# UniqueInt App
+
 Introduction
 The UniqueInt application processes input text files containing integers and outputs a text file with unique integers sorted in ascending order.
 
-Requirements
+# Requirements
 
 Java Development Kit (JDK) 8 or higher
 
-#How to Run
+# How to Run
 
 Clone the Repository:
 
@@ -23,7 +24,7 @@ cd UniqueInt
 
 ```
 
-#Compile the Java Code:
+# Compile the Java Code:
 
 Compile the UniqueInt.java file using the Java compiler (javac):
 
@@ -33,7 +34,7 @@ javac UniqueInt.java
 
 ```
 
-#Run the Application:
+# Run the Application:
 
 Run the compiled Java application using the Java interpreter (java), providing the input folder path:
 
@@ -57,6 +58,8 @@ View Output:
 
 Once the application finishes processing, the output text files will be generated in the specified output folder (/root/work/results by default). Each output file will contain unique integers sorted in ascending order from the corresponding input file.
 
-Notes
+# Notes
 Input files must have a .txt extension and contain one integer per line.
 Output files will be generated in the /root/java_app/results directory by default. You can change the output directory by modifying the outputFolder variable in the UniqueInt.java file.
+# Author
+Joan Keza
