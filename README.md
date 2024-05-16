@@ -4,6 +4,7 @@ Introduction
 The UniqueInt application processes input text files containing integers and outputs a text file with unique integers sorted in ascending order.
 
 Requirements
+
 Java Development Kit (JDK) 8 or higher
 
 #How to Run
