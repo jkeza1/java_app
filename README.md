@@ -5,51 +5,52 @@ The UniqueInt application processes input text files containing integers and out
 
 Requirements
 Java Development Kit (JDK) 8 or higher
-How to Run
+
+#How to Run
 
 Clone the Repository:
 
-'''bash
+```bash
 
 git clone <repository_url>
 
-'''
+```
 
-'''bash
+```bash
 
 cd UniqueInt
 
-'''
+```
 
 #Compile the Java Code:
 
 Compile the UniqueInt.java file using the Java compiler (javac):
 
-'''bash
+```bash
 
 javac UniqueInt.java
 
-'''
+```
 
 #Run the Application:
 
 Run the compiled Java application using the Java interpreter (java), providing the input folder path:
 
-'''bash
+```bash
 
 java UniqueInt
 
-'''
+```
 
 Replace <input_folder_path> with the path to the folder containing the input text files.
 
 Example:
 
-'''bash
+```bash
 
 java UniqueInt /path/to/input_folder
 
-'''
+```
 
 View Output:
 
@@ -57,4 +58,4 @@ Once the application finishes processing, the output text files will be generate
 
 Notes
 Input files must have a .txt extension and contain one integer per line.
-Output files will be generated in the /root/work/results directory by default. You can change the output directory by modifying the outputFolder variable in the UniqueInt.java file.
+Output files will be generated in the /root/java_app/results directory by default. You can change the output directory by modifying the outputFolder variable in the UniqueInt.java file.
