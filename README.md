@@ -56,7 +56,7 @@ java UniqueInt /path/to/input_folder
 
 View Output:
 
-Once the application finishes processing, the output text files will be generated in the specified output folder (/root/work/results by default). Each output file will contain unique integers sorted in ascending order from the corresponding input file.
+Once the application finishes processing, the output text files will be generated in the specified output folder (/root/java_app/results by default). Each output file will contain unique integers sorted in ascending order from the corresponding input file.
 
 # Notes
 Input files must have a .txt extension and contain one integer per line.
